@@ -2,8 +2,8 @@ package arcturus.lexical;
 
 public enum TokenType {
     WHITESPACE,
-    OPEN_PARENTESIS,
-    CLOSE_PARENTESIS,
+    OPEN_PAREN,
+    CLOSE_PAREN,
     INTEGER,
     FLOAT,
     PLUS_OPERATOR,

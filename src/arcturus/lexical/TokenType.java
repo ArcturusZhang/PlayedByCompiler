@@ -1,6 +1,7 @@
 package arcturus.lexical;
 
 public enum TokenType {
+    EOF,
     WHITESPACE,
     OPEN_PAREN,
     CLOSE_PAREN,

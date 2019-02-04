@@ -30,4 +30,10 @@ public class Token {
     public boolean isType(TokenType type) {
         return this.type == type;
     }
+
+    @Override
+    public String toString() {
+        if (content == null) return type.toString();
+        return type.toString() + ": " + content;
+    }
 }
